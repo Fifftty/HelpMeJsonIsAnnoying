@@ -4,6 +4,7 @@
             "TEMP": [
                 {
                     "Race_Name": "template",
+                    "Movement": null,
                     "Hit_Dice": null,
                     "AC": null,
                     "HP": null,

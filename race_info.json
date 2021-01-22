@@ -4,7 +4,6 @@
             "TEMP": [
                 {
                     "Race_Name": "template",
-                    "Movement": null,
                     "Hit_Dice": null,
                     "AC": null,
                     "HP": null,
@@ -16,7 +15,6 @@
                     "Intlvl": null,
                     "Wislvl": null,
                     "Rhelvl": null,
-                    "Prof": null,
                     "Bleeding": null,
                     "Element": null,
                     "Fear": null,
@@ -63,9 +61,9 @@
                     "Hit_Dice": 6,
                     "AC": 10,
                     "HP": "+10",
-                    "Magic": "+2",
                     "Wither": "+3",
-                    "Ability": 1
+                    "Ability": 1,
+                    "Special?": "false"
                 }
             ],
             "COLONIAL HUMAN": [
@@ -73,10 +71,11 @@
                     "Race_Name": "Colonial Human",
                     "Hit_Dice": 6,
                     "AC": 10,
-                    "Magic": "+1",
-                    "Wither": "+3",
-                    "Ability": 1,
-                    "Stress": "+20"
+                    "HP": null,
+                    "Stress": 20,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "ELDAR HUMAN": [
@@ -84,11 +83,11 @@
                     "Race_Name": "Eldar Human",
                     "Hit_Dice": 6,
                     "AC": 10,
-                    "Wither": "+4",
-                    "Magic": "-4",
-                    "Ability": 1,
-                    "HP": "+5",
-                    "Stress": "+10"
+                    "HP": 5,
+                    "Stress": 10,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "ORIENTAL HUMAN": [
@@ -96,57 +95,46 @@
                     "Race_Name": "Oriental Human",
                     "Hit_Dice": 6,
                     "AC": 10,
-                    "Wither": "+4",
-                    "Magic": "-4",
-                    "Ability": 1,
-                    "Ki": "3"
+                    "HP": 5,
+                    "Stress": 10,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "GULF HUMAN": [
                 {
                     "Race_Name": "Gulf Human",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "Wither": "+4",
-                    "Plague": "+1",
-                    "Ability": 1,
-                    "Prof": "+1",
-                    "Operating": "+3"
+                    "Hit_Dice": null,
+                    "AC": null,
+                    "HP": null,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "NORTHMEN": [
                 {
                     "Race_Name": "Northmen",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "Intlvl": "-4",
-                    "Plague": "+3",
-                    "Strlvl;": "+2",
-                    "Element": "Adv Cold",
+                    "Hit_Dice": null,
+                    "AC": null,
+                    "HP": null,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
                     "Special?": true
                 }
             ],
             "HALFLING": [
                 {
                     "Race_Name": "Halfling",
-                    "Hit_Dice": 4,
-                    "AC": 8,
-                    "Dexlvl": "+2",
-                    "Magic": "-4",
-                    "Strlvl": "-4",
-                    "Plague": "+2",
-                    "Special?": true
-                }
-            ],
-            "Illithid": [
-                {
-                    "Race_Name": "Illithid",
-                    "Hit_Dice": 6,
-                    "AC": 8,
-                    "Dexlvl": "+2",
-                    "Magic": "-4",
-                    "Strlvl": "-4",
-                    "Plague": "+2",
+                    "Hit_Dice": null,
+                    "AC": null,
+                    "HP": null,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
                     "Special?": true
                 }
             ]
@@ -281,55 +269,37 @@
             "MOUNTAIN DWARF": [
                 {
                     "Race_Name": "Mountain Dwarf",
-                    "Hit_Dice": 8,
-                    "AC": 11,
-                    "HP": "1d10",
-                    "Strlvl": "3",
-                    "Intlvl": "1",
-                    "Dexlvl": "-3",
-                    "Arcane": "-2",
-                    "Movement": "3",
-                    "Special?": true
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "HILL DWARF": [
                 {
                     "Race_Name": "Hill Dwarf",
-                    "Hit_Dice": 8,
-                    "AC": 11,
-                    "Strlvl": "3",
-                    "Wislvl": "1",
-                    "Dexlvl": "-2",
-                    "Persuasion": "-2",
-                    "Arcane": "-2",
-                    "Special?": true
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "DUERGAR": [
                 {
                     "Race_Name": "Duergar",
-                    "Hit_Dice": 8,
-                    "AC": 11,
-                    "Strlvl": "4",
-                    "Intlvl": "-2",
-                    "Dexlvl": "-3",
-                    "Movement": "3",
-                    "Special?": true
-                }
-             ],
-            "BASTION_DWARF": [
-                {
-                    "Race_Name": "Bastion Dwarf",
-                    "Hit_Dice": 8,
-                    "AC": 11,
-                    "HP": "1d10",
-                    "Strlvl": "4",
-                    "Intlvl": "1",
-                    "Dexlvl": "-3",
-                    "Arcane": "-5",
-                    "Movement": "3",
-                    "Special?": true
-
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ]
         }
@@ -339,13 +309,13 @@
             "IMPERIAL ARGONIAN": [
                 {
                     "Race_Name": "Imperial Argonian",
-                    "Hit_Dice": 8,
-                    "AC": 12,
-                    "Plague": "-4",
-                    "Draconic": "10",
-                    "Fear": "2",
-                    "Element": "3",
-                    "Special?": true
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "SWAMP ARGONIAN": [
@@ -353,10 +323,11 @@
                     "Race_Name": "Swamp Argonian",
                     "Hit_Dice": 6,
                     "AC": 10,
-                    "Plague": "-7",
-                    "Draconic": "13",
-                    "Intlvl": "-4",
-                    "Special?": true
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ]
         }
@@ -366,58 +337,55 @@
             "CENTAURS": [
                 {
                     "Race_Name": "Centaur",
-                    "Hit_Dice": 8,
+                    "Hit_Dice": 6,
                     "AC": 10,
-                    "Strlvl": "+2",
-                    "Dexlvl": "+2",
-                    "Nature": "+6",
-                    "Intlvl": "-3",
-                    "Arcane": "-4",
-                    "Special?": true
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "MINOTAURS": [
                 {
                     "Race_Name": "Minotaurs",
-                    "Hit_Dice": 8,
-                    "AC": 12,
-                    "HP": "+20",
-                    "Strlvl": "+6",
-                    "Nature": "+3",
-                    "Intlvl": "-5",
-                    "Dexlvl": "-3",
-                    "Stealth": "-4",
-                    "Arcane": "-2",
-                    "Special?": true
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "SATYR": [
                 {
                     "Race_Name": "Satyr",
                     "Hit_Dice": 6,
-                    "AC": 9,
-                    "Strlvl": "+2",
-                    "Rhelvl": "+4",
-                    "Charm": "+2",
-                    "Nature": "+7",
-                    "Intlvl": "-3",
-                    "Wislvl": "-3",
-                    "Special?": true
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ]
         }
     ],
     "OTHER_REALMS": [
         {
-            
             "ANGEL": [
                 {
                     "Race_Name": "Angel",
                     "Hit_Dice": 6,
                     "AC": "+10",
+                    "HP": null,
+                    "Stress": null,
                     "Wislvl": "+2",
                     "Wither": "+5",
                     "Magic": "+2",
+                    "Ki": null,
+                    "Mana": null,
                     "Special?": true
                 }
             ],
@@ -426,9 +394,13 @@
                     "Race_Name": "Arising Hellspawn",
                     "Hit_Dice": 6,
                     "AC": "+14",
+                    "HP": null,
+                    "Stress": null,
                     "Wislvl": "-3",
                     "Wither": "+4",
                     "Virtue": "-6",
+                    "Ki": null,
+                    "Mana": null,
                     "Special?": true
                 }
             ],
@@ -437,11 +409,15 @@
                     "Race_Name": "Dark Wraith",
                     "Hit_Dice": 6,
                     "AC": "+11",
+                    "HP": null,
+                    "Stress": null,
                     "Magic": "+5",
                     "Element": "+5",
                     "Reaction": "+2",
                     "Persuasion": "-4",
                     "Intimidation": "+2",
+                    "Ki": null,
+                    "Mana": null,
                     "Special?": true
                 }
             ],
@@ -450,10 +426,14 @@
                     "Race_Name": "Fallen Angel",
                     "Hit_Dice": 6,
                     "AC": "+10",
+                    "HP": null,
+                    "Stress": null,
                     "Element": "+1",
                     "Magic": "+3",
                     "Wither": "+4",
                     "WISlvl": "+3",
+                    "Ki": null,
+                    "Mana": null,
                     "Special?": true
                 }
             ],
@@ -462,9 +442,13 @@
                     "Race_Name": "Hellspawn",
                     "Hit_Dice": 6,
                     "AC": "+14",
+                    "HP": null,
+                    "Stress": null,
                     "WISlvl": "-3",
                     "Wither": "+4",
                     "Virtue": "-10",
+                    "Ki": null,
+                    "Mana": null,
                     "Special?": true
                 }
             ],
@@ -473,10 +457,14 @@
                     "Race_Name": "Lightsworn",
                     "Hit_Dice": 6,
                     "AC": "+10",
+                    "HP": null,
+                    "Stress": null,
                     "Bleed": "+3",
                     "Magic": "+4",
                     "Wither": "-6",
                     "Will": "+20",
+                    "Ki": null,
+                    "Mana": null,
                     "Special?": true
                 }
             ]
@@ -487,32 +475,32 @@
             "ANURAN": [
                 {
                     "Race_Name": "Anuran",
-                    "Hit_Dice": 6,
-                    "AC": 10,
+                    "Hit_Dice": 8,
+                    "AC": null,
                     "HP": 10,
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "ARCOVUS": [
                 {
                     "Race_Name": "Arcovus",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "Hit_Dice": 8,
+                    "AC": 9,
+                    "HP": null,
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "ARIEDUNOM": [
                 {
                     "Race_Name": "Ariedunom",
                     "Hit_Dice": 6,
-                    "AC": 10,
+                    "AC": 8,
                     "HP": 10,
                     "Stress": null,
                     "Ki": null,

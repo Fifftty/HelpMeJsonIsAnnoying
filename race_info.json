@@ -596,156 +596,181 @@
                 {
                     "Race_Name": "Felinaus",
                     "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "AC": "+9",
+                    "HP": null,
+                    "DEXlvl": "+2",
+                    "Agility": "+1",
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "FROSTBORN": [
                 {
                     "Race_Name": "Frostborn",
                     "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "AC": null,
+                    "HP": null,
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
-                }
-            ],
-            "FROSTBURN": [
-                {
-                    "Race_Name": "Frostburn",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "GOBLIN": [
                 {
                     "Race_Name": "Goblin",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "Hit_Dice": 4,
+                    "AC": "-4",
+                    "HP": null,
+                    "DEXlvl": "+2",
+                    "Shooting": "+3",
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "HALF PALE": [
                 {
                     "Race_Name": "Half Pale",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "Hit_Dice": 8,
+                    "AC": "+11",
+                    "HP": "+15",
+                    "STRlvl": "+2",
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "HAUDNE": [
                 {
                     "Race_Name": "Haudne",
                     "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "AC": "+10",
+                    "HP": null,
+                    "CON": "+5",
+                    "Barter": "+1",
+                    "Virtue": "-10",
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "HIATIBUS": [
                 {
                     "Race_Name": "Hiatibus",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "Hit_Dice": 8,
+                    "AC": "+13",
+                    "CON": "+10",
+                    "STRlvl": "+3",
+                    "DEXlvl": "+1",
+                    "WISlvl": "-3",
+                    "RHElvl": "-1",
+                    "HP": null,
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "HINDORIAN": [
                 {
                     "Race_Name": "Hindorian",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "Hit_Dice": 8,
+                    "AC": "+11",
+                    "HP": null,
+                    "STRlvl": "+2",
+                    "DEXlvl": "+1",
+                    "INTlvl": "-3",
+                    "WISlvl": "-2",
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "HIRODIAN": [
                 {
                     "Race_Name": "Hirodian",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "Hit_Dice": 8,
+                    "AC": null,
+                    "HP": null,
+                    "INTlvl": "-4",
+                    "RHElvl": "-2",
+                    "WISlvl": "-1",
+                    "STRlvl": "+1",
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "KEEWATIN": [
                 {
                     "Race_Name": "Keewatin",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "Hit_Dice": 8,
+                    "AC": "+12",
+                    "HP": null,
+                    "CON": "+20",
+                    "STRlvl": "+4",
+                    "Agility": "-2",
+                    "Stealth": "-2",
+                    "INT": "-6",
+                    "WIS": "-1",
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "KRELL": [
                 {
                     "Race_Name": "Krell",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "Hit_Dice": 4,
+                    "AC": "+6",
+                    "HP": null,
+                    "CON": "-5",
+                    "STRlvl": "-5",
+                    "INT": "+3",
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "LOXODANT": [
                 {
                     "Race_Name": "Loxodant",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "Hit_Dice": 8,
+                    "AC": "+13",
+                    "HP": null,
+                    "WISlvl": "+2",
+                    "Arcane": "+3",
+                    "DEXlvl": "-4",
+                    "RHElvl": "-1",
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "MERMAID": [
                 {
                     "Race_Name": "Mermaid",
                     "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
+                    "AC": "+11",
+                    "HP": null,
+                    "CON": "+5",
+                    "STRlvl": "+2",
+                    "RHElvl": "+3",
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Special?": false
+                    "Special?": true
                 }
             ],
             "MYCON": [

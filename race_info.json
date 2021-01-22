@@ -1,0 +1,910 @@
+{
+    "TEMPLATE": [
+        {
+            "TEMP": [
+                {
+                    "Race_Name": "template",
+                    "Hit_Dice": null,
+                    "AC": null,
+                    "HP": null,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Bleeding": null,
+                    "Element": null,
+                    "Fear": null,
+                    "Magic": null,
+                    "Plague": null,
+                    "Reaction": null,
+                    "Wither": null,
+                    "Agility": null,
+                    "Animal_handling": null,
+                    "Arcane": null,
+                    "Barter": null,
+                    "Brawling": null,
+                    "Charm": null,
+                    "Control": null,
+                    "Crafting": null,
+                    "Science": null,
+                    "Deception": null,
+                    "History": null,
+                    "Intimidation": null,
+                    "Insight": null,
+                    "Leadership": null,
+                    "Medical": null,
+                    "Melee": null,
+                    "Nature": null,
+                    "Operating": null,
+                    "Perception": null,
+                    "Performance": null,
+                    "Persuasion": null,
+                    "Religion": null,
+                    "Shooting": null,
+                    "Stealth": null,
+                    "Virtue": null,
+                    "Will": null,
+                    "Special?": false
+                }
+            ]
+        }
+    ],
+    "HUMANS": [
+        {
+            "IMPERIAL HUMAN": [
+                {
+                    "Race_Name": "Imperial Human",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": "+10",
+                    "Wither": "+3",
+                    "Ability": 1,
+                    "Special?": "false"
+                }
+            ],
+            "COLONIAL HUMAN": [
+                {
+                    "Race_Name": "Colonial Human",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": null,
+                    "Stress": 20,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "ELDAR HUMAN": [
+                {
+                    "Race_Name": "Eldar Human",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 5,
+                    "Stress": 10,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "ORIENTAL HUMAN": [
+                {
+                    "Race_Name": "Oriental Human",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 5,
+                    "Stress": 10,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "GULF HUMAN": [
+                {
+                    "Race_Name": "Gulf Human",
+                    "Hit_Dice": null,
+                    "AC": null,
+                    "HP": null,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "NORTHMEN": [
+                {
+                    "Race_Name": "Northmen",
+                    "Hit_Dice": null,
+                    "AC": null,
+                    "HP": null,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": true
+                }
+            ],
+            "HALFLING": [
+                {
+                    "Race_Name": "Halfling",
+                    "Hit_Dice": null,
+                    "AC": null,
+                    "HP": null,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": true
+                }
+            ]
+        }
+    ],
+    "ELVES": [
+        {
+            "HIGH ELF": [
+                {
+                    "Race_Name": "High Elves",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "SHADOWLANDER HIGH ELF": [
+                {
+                    "Race_Name": "Shadowlander High Elf",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "WOOD ELF": [
+                {
+                    "Race_Name": "Wood Elf",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "SURFACE DARK ELF": [
+                {
+                    "Race_Name": "Surface Dark Elf",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "UNDERDARK DARK ELF": [
+                {
+                    "Race_Name": "Underdark Dark Elf",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "NIGHT ELF": [
+                {
+                    "Race_Name": "Night Elf",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "BLOOD ELF": [
+                {
+                    "Race_Name": "Blood Elf",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "SEA ELF": [
+                {
+                    "Race_Name": "Sea Elf",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "OLD ELF": [
+                {
+                    "Race_Name": "Old Elf",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "FIEND ELF": [
+                {
+                    "Race_Name": "Fiend Elf",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ]
+        }
+    ],
+    "DWARVES": [
+        {
+            "MOUNTAIN DWARF": [
+                {
+                    "Race_Name": "Mountain Dwarf",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "HILL DWARF": [
+                {
+                    "Race_Name": "Hill Dwarf",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "DUERGAR": [
+                {
+                    "Race_Name": "Duergar",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ]
+        }
+    ],
+    "ARGONIAN": [
+        {
+            "IMPERIAL ARGONIAN": [
+                {
+                    "Race_Name": "Imperial Argonian",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "SWAMP ARGONIAN": [
+                {
+                    "Race_Name": "Swamp Argonian",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ]
+        }
+    ],
+    "TAR_HERDS": [
+        {
+            "CENTAURS": [
+                {
+                    "Race_Name": "Centaur",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "MINOTAURS": [
+                {
+                    "Race_Name": "Minotaurs",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "SATYR": [
+                {
+                    "Race_Name": "Satyr",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ]
+        }
+    ],
+    "OTHER_REALMS": [
+        {
+            "ANGEL": [
+                {
+                    "Race_Name": "Angel",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "ARISING HELLSPAWN": [
+                {
+                    "Race_Name": "Arising Hellspawn",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "DARK WRAITH": [
+                {
+                    "Race_Name": "Dark Wraith",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "FALLEN ANGEL": [
+                {
+                    "Race_Name": "Fallen Angel",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "HELLSPAWN": [
+                {
+                    "Race_Name": "Hellspawn",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "LIGHTSWORN": [
+                {
+                    "Race_Name": "Lightsworn",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ]
+        }
+    ],
+    "LESSER_RACES": [
+        {
+            "ANURAN": [
+                {
+                    "Race_Name": "Anuran",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "ARCOVUS": [
+                {
+                    "Race_Name": "Arcovus",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "ARIEDUNOM": [
+                {
+                    "Race_Name": "Ariedunom",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "BEB'LS": [
+                {
+                    "Race_Name": "Beb'ls",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "CROOKED": [
+                {
+                    "Race_Name": "Crooked",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "DRACONIN": [
+                {
+                    "Race_Name": "Draconin",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "DRYAD": [
+                {
+                    "Race_Name": "Dryad",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "EIRACHON": [
+                {
+                    "Race_Name": "Eirachon",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "ETIN": [
+                {
+                    "Race_Name": "Etin",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "FELINAUS": [
+                {
+                    "Race_Name": "Felinaus",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "FROSTBORN": [
+                {
+                    "Race_Name": "Frostborn",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "FROSTBURN": [
+                {
+                    "Race_Name": "Frostburn",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "GOBLIN": [
+                {
+                    "Race_Name": "Goblin",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "HALF PALE": [
+                {
+                    "Race_Name": "Half Pale",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "HAUDNE": [
+                {
+                    "Race_Name": "Haudne",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "HIATIBUS": [
+                {
+                    "Race_Name": "Hiatibus",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "HINDORIAN": [
+                {
+                    "Race_Name": "Hindorian",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "HIRODIAN": [
+                {
+                    "Race_Name": "Hirodian",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "KEEWATIN": [
+                {
+                    "Race_Name": "Keewatin",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "KRELL": [
+                {
+                    "Race_Name": "Krell",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "LOXODANT": [
+                {
+                    "Race_Name": "Loxodant",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "MERMAID": [
+                {
+                    "Race_Name": "Mermaid",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "MYCON": [
+                {
+                    "Race_Name": "Mycon",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "PYOTONIS": [
+                {
+                    "Race_Name": "Pyotonis",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "NO'R": [
+                {
+                    "Race_Name": "No'r",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "SAHUAGIN": [
+                {
+                    "Race_Name": "Sahuagin",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "TALPID": [
+                {
+                    "Race_Name": "Talpid",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "TRAL": [
+                {
+                    "Race_Name": "Tral",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "URK": [
+                {
+                    "Race_Name": "Urk",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "VESPARIAN": [
+                {
+                    "Race_Name": "Vesparian",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ]
+        }
+    ],
+    "OTHERS": [
+        {
+            "CHANGELING": [
+                {
+                    "Race_Name": "Changeling",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "VAMPIRE THRALL": [
+                {
+                    "Race_Name": "Vampire Thrall",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "YOUNG VAMPIRE": [
+                {
+                    "Race_Name": "Young Vampire",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "MATURE VAMPIRE": [
+                {
+                    "Race_Name": "Mature Vampire",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "TRUE VAMPIRE": [
+                {
+                    "Race_Name": "True Vampire",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "LYCAN": [
+                {
+                    "Race_Name": "Lycan",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "ULFR": [
+                {
+                    "Race_Name": "Ulfr",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ],
+            "MELRAKKI": [
+                {
+                    "Race_Name": "Melrakki",
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
+                }
+            ]
+        }
+    ]
+}
